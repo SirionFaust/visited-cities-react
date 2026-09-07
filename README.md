@@ -1,4 +1,4 @@
-Visited Cities App
+<h1>Visited Cities App</h1>
 
 A web application built with React and Vite, styled using Tailwind CSS, designed to track and manage cities you have visited or plan to visit.
 Features
