@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Stili del corpo della pagina */
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  background-color: #2d3034; /* Grigio chiarissimo, riposante per gli occhi */
+  color: #212529; /* Grigio scuro quasi nero (evita il nero puro per una lettura migliore) */
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Link di base */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

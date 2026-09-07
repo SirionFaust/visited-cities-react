@@ -1,0 +1,15 @@
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Crea spazio automatico tra i componenti figli (es. tra h1 e CardForm) */
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111111;
+  text-align: center;
+}
